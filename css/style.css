@@ -34,6 +34,7 @@ h3{
 }
 h4{
     color: #FB6D3A;
+    line-height: 22px;
 }
 
 p{
@@ -91,7 +92,7 @@ aside p:hover{
 }
 .photo{
     width: calc(100% + 80px);
-    height: 420px;
+    height: 450px;
     margin-left: -40px;
 }
 
@@ -165,6 +166,9 @@ aside p:hover{
         padding: 20px;
         padding-top: 40px;
     }
+    .about{
+        width: 100%;
+    }
     .main{
         width: 55%;
         margin-right: 15px;
@@ -174,7 +178,7 @@ aside p:hover{
     }
     .photo{
         width: calc(100% + 40px);
-        height: 350px;
+        height: 400px;
         margin-left: -20px;
     }
 }
@@ -232,7 +236,6 @@ aside p:hover{
     }
     .aside-menu-active{
         display: flex;
-        height: max-content;
         position: fixed;
         overflow: auto;
         top: 0;
